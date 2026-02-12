@@ -22,6 +22,7 @@ IMPL:
   - {IMPL: dart}
   - {IMPL: elisp}
   - {IMPL: elixir}
+  - {IMPL: elixir.2}
   - {IMPL: elm}
   - {IMPL: erlang, NO_SELF_HOST: 1}  # step4 silent exit on "(DO 3)"
   - {IMPL: es6}

@@ -1,0 +1,1 @@
+Mal.start_repl()

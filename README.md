@@ -42,7 +42,7 @@ process guide](process/guide.md) there is also a [mal/make-a-lisp
 FAQ](docs/FAQ.md) where I attempt to answer some common questions.
 
 
-**3. Mal is implemented in 89 languages (95 different implementations and 118 runtime modes)**
+**3. Mal is implemented in 89 languages (96 different implementations and 119 runtime modes)**
 
 | Language | Creator |
 | -------- | ------- |
@@ -64,6 +64,7 @@ FAQ](docs/FAQ.md) where I attempt to answer some common questions.
 | [D](#d) | [Dov Murik](https://github.com/dubek) |
 | [Dart](#dart) | [Harry Terkelsen](https://github.com/hterkelsen) |
 | [Elixir](#elixir) | [Martin Ek](https://github.com/ekmartin) |
+| [Elixir #2](#elixir2) | [Alessandro Cerruti](https://github.com/chrooti) |
 | [Elm](#elm) | [Jos van Bakel](https://github.com/c0deaddict) |
 | [Emacs Lisp](#emacs-lisp) | [Vasilij Schneidermann](https://github.com/wasamasa) |
 | [Erlang](#erlang) | [Nathan Fiedler](https://github.com/nlfiedler) |
@@ -443,6 +444,17 @@ cd impls/elixir
 mix stepX_YYY
 # Or with readline/line editing functionality:
 iex -S mix stepX_YYY
+```
+
+### Elixir.2
+
+The second Elixir implementation of mal has been tested with Elixir 1.19.5 and Erlang/OTP 28.
+
+```
+cd impls/elixir.2
+STEP=stepX_YYY mix run
+# Or with readline/line editing functionality:
+STEP=stepX_YYY iex -S mix
 ```
 
 ### Elm

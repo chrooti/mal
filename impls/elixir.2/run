@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")" || exit
+# -e '' is necessary so that the elixir version in Ubuntu 24.04
+# (14) doesn't parse the first arg as the script path
+exec env STEP="${STEP:-stepA_mal}" mix run -e '' -- "${@}"
